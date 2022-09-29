@@ -6,12 +6,12 @@ $jy_config_path = JY_CONFIG_DIR . '/config.php';
 $xy_config_path = XY_CONFIG_DIR . '/config.php';
 
 if (!file_exists($jy_config_path)) {
-    echo "家园配置文件未找到，请按照安装说明创建配置文件：<a href='https://github.com/zither/xiyou/blob/master/README.md'>README.md</a>";
+    echo "家园配置文件未找到：请检查config.php文件是否配置正确</a>";
     exit;
 }
 
 if (!file_exists($xy_config_path)) {
-    echo "分区配置文件未找到，请按照安装说明创建配置文件：<a href='https://github.com/zither/xiyou/blob/master/README.md'>README.md</a>";
+    echo "分区配置文件未找到：请检查config.php文件是否配置正确</a>";
     exit;
 }
 
