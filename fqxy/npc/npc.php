@@ -106,10 +106,9 @@ if ($npcc==1) {
 //cmd及超链接值
 	$cmid=$cmid+1;
 	$cdid[]=$cmid;
-	$clj[]=20;
-	$npc[]=1;
+	$clj[]=691;
+	$npc[]="1_96";
 	echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>南城客栈</font></a>"."<br>";
-	echo "<br>";
 //
 
 
