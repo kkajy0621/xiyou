@@ -1,25 +1,20 @@
 <?php
-
 //调用zt.ini是否存在
 include("./ini/zt_ini.php");
 $wjxx=($iniFile->getCategory('玩家信息'));
-
 include("./ini/xtsz_ini.php");
 $xtsz=($iniFile->getCategory('显示设置'));
 $tpbl=$xtsz['图片显示'];
-
 $inina="user.ini";
 $path='ache/'.$wjid;
 $ininame = $path."/".$inina;
 $iniFile = new iniFile($ininame);
-
 $dtx=($iniFile->getItem('地图坐标','x'));
 $dty=($iniFile->getItem('地图坐标','y'));
 $fjmap=($iniFile->getItem('验证信息','cmid值'));
 if ($fjmap==38||$fjmap==39||$fjmap==40||$fjmap==41) {
     $fjmap=92;
 }
-
 if ($wjid==10000001) {//gm号可看
     echo "<font color=red>-----当前地图坐标-----</font>"."</br>";
     echo "地图x：".$dtx;
@@ -28,12 +23,9 @@ if ($wjid==10000001) {//gm号可看
     echo "</br>";
     echo "<font color=red>-----当前地图坐标-----</font>"."</br>";
 }
-
 if ($dty=="") {
     $iniFile->addCategory('地图坐标', ['x' => '0', 'y' => '0']);
 }
-
-
 if ($dtx==0) {
     //跳转至新手村地图
     if ($mapdx==2) {
@@ -63,7 +55,6 @@ if ($dtx==0) {
     }
     $inina="hdml".$dtx."x".$dty.".ini";
     $ininalock="hdml".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==4) {
 //跳转至龙宫海底地图
     if ($fjmap!=92) {
@@ -80,7 +71,6 @@ if ($dtx==0) {
     }
     $inina="jsh".$dtx."x".$dty.".ini";
     $ininalock="jsh".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==6) {
 //跳转至龙宫莽林深处地图
     if ($fjmap!=92) {
@@ -225,7 +215,6 @@ if ($dtx==0) {
     }
     $inina="tg".$dtx."x".$dty.".ini";
     $ininalock="tg".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==24) {
 //跳转至傲来国地图
     if ($fjmap!=92) {
@@ -234,7 +223,6 @@ if ($dtx==0) {
     }
     $inina="alg".$dtx."x".$dty.".ini";
     $ininalock="alg".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==25) {
 //跳转至宝象国地图
     if ($fjmap!=92) {
@@ -404,7 +392,6 @@ if ($dtx==0) {
     }
     $inina="byzzl".$dtx."x".$dty.".ini";
     $ininalock="byzzl".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==46) {
 //跳转至白骨陵墓地图
     if ($fjmap!=92) {
@@ -429,7 +416,6 @@ if ($dtx==0) {
     }
     $inina="yc".$dtx."x".$dty.".ini";
     $ininalock="yc".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==49) {
 //冰晶塔地图
     if ($fjmap!=92) {
@@ -438,7 +424,6 @@ if ($dtx==0) {
     }
     $inina="bjt".$dtx."x".$dty.".ini";
     $ininalock="bjt".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==50) {
 //波月洞地图
     if ($fjmap!=92) {
@@ -495,14 +480,12 @@ if ($dtx==0) {
     }
     $inina="xlys".$dtx."x".$dty.".ini";
     $ininalock="xlys".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==57) {
 //盘丝洞地图
     if ($fjmap!=92) {
         include("psd.php");
     } else{
     }
-
     $inina="psd".$dtx."x".$dty.".ini";
     $ininalock="psd".$dtx."x".$dty.".txt";
 } elseif ($dtx==58) {
@@ -521,7 +504,6 @@ if ($dtx==0) {
     }
     $inina="jjl".$dtx."x".$dty.".ini";
     $ininalock="jjl".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==60) {
 //比丘国地图
     if ($fjmap!=92) {
@@ -570,8 +552,6 @@ if ($dtx==0) {
     }
     $inina="tzg".$dtx."x".$dty.".ini";
     $ininalock="tzg".$dtx."x".$dty.".txt";
-
-
 } elseif ($dtx==66) {
 //因果岛地图
     if ($fjmap!=92) {
@@ -580,9 +560,6 @@ if ($dtx==0) {
     }
     $inina="ygd".$dtx."x".$dty.".ini";
     $ininalock="ygd".$dtx."x".$dty.".txt";
-
-
-
 } elseif ($dtx==67) {
 //止戈镇地图
     if ($fjmap!=92) {
@@ -591,7 +568,6 @@ if ($dtx==0) {
     }
     $inina="zgz".$dtx."x".$dty.".ini";
     $ininalock="zgz".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==68) {
 //小遗迹
     if ($fjmap!=92) {
@@ -616,7 +592,6 @@ if ($dtx==0) {
     }
     $inina="kfgc".$dtx."x".$dty.".ini";
     $ininalock="kfgc".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==71) {
 //民宅
     if ($fjmap!=92) {
@@ -636,13 +611,11 @@ if ($dtx==0) {
     $inina="hz".$dtx."x".$dty.".ini";
     $ininalock="hz".$dtx."x".$dty.".txt";
 } elseif ($dtx==73) {
-
 //官宅
     if ($fjmap!=92) {
         include("gzai.php");
     } else{
     }
-
     $inina="gzai.ini";
     $inina="gzai".$dtx."x".$dty.".ini";
     $ininalock="gzai".$dtx."x".$dty.".txt";
@@ -678,23 +651,12 @@ if ($dtx==0) {
     }
     $inina="cwd".$dtx."x".$dty.".ini";
     $ininalock="cwd".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==78) {//通天塔
-
-//宠物岛
-
     include("ttt.php");
-
-
 } elseif ($dtx==79) {//十八层地狱
-
 //十八层地狱
-
     include("dy18.php");
-
-
 } elseif ($dtx==80) {//芭蕉洞
-
 //芭蕉洞
     if ($fjmap!=92) {
         include("bjd.php");
@@ -703,7 +665,6 @@ if ($dtx==0) {
     $inina="bjd".$dtx."x".$dty.".ini";
     $ininalock="bjd".$dtx."x".$dty.".txt";
 } elseif ($dtx==81) {//通天水府
-
 //通天水府
     if ($fjmap!=92) {
         include("ttsf.php");
@@ -711,49 +672,38 @@ if ($dtx==0) {
     }
     $inina="ttsf".$dtx."x".$dty.".ini";
     $ininalock="ttsf".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==82) {//盘丝洞
 //盘丝洞地图
     if ($fjmap!=92) {
         include("psdd.php");
     } else{
     }
-
     $inina="psdd".$dtx."x".$dty.".ini";
     $ininalock="psdd".$dtx."x".$dty.".txt";
-
-
 } elseif ($dtx==83) {//狮驼洞
 //狮驼洞地图
     if ($fjmap!=92) {
         include("std.php");
     } else{
     }
-
     $inina="std".$dtx."x".$dty.".ini";
     $ininalock="std".$dtx."x".$dty.".txt";
-
-
 } elseif ($dtx==84) {//无底洞
 //无底洞地图
     if ($fjmap!=92) {
         include("wdd.php");
     } else{
     }
-
     $inina="wdd".$dtx."x".$dty.".ini";
     $ininalock="wdd".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==85) {//百花秘境
 //百花秘境地图
     if ($fjmap!=92) {
         include("bhmj.php");
     } else{
     }
-
     $inina="bhmj".$dtx."x".$dty.".ini";
     $ininalock="bhmj".$dtx."x".$dty.".txt";
-
 } elseif ($dtx==86) {//【万象阵】地图
 //【万象阵】地图
     if ($fjmap!=92) {
@@ -762,8 +712,6 @@ if ($dtx==0) {
     }
     $inina="wxz01".$dtx."x".$dty.".ini";
     $ininalock="wxz01".$dtx."x".$dty.".txt";
-
-
 } elseif ($dtx==87) {
 //【铁矿山】地图
     if ($fjmap!=92) {
@@ -796,20 +744,11 @@ if ($dtx==0) {
     }
     $inina="vip4qy".$dtx."x".$dty.".ini";
     $ininalock="vip4qy".$dtx."x".$dty.".txt";
-
-
-
-
-
-
-
-
-
+} elseif ($dtx==91) {//诛仙台
+    include("zxt.php");
+	$inina="zxt".$dtx."x".$dty.".ini";
+    $ininalock="zxt".$dtx."x".$dty.".txt";
 } else {
-
     echo "Have a good night!.";
 }
-
-
 ?>
-

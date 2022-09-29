@@ -450,12 +450,11 @@ $ininalock="vip3qy".$ydtx."x".$ydty.".txt";
 $inina="vip4qy".$ydtx."x".$ydty.".ini";
 $ininalock="vip4qy".$ydtx."x".$ydty.".txt";
 
-
-
-
-
-
-
+//诛仙台新增代码
+ } elseif ($ydtx==91) {
+$inina="zxt".$ydtx."x".$ydty.".ini";
+$ininalock="zxt".$ydtx."x".$ydty.".txt";
+//诛仙台新增代码
 
 } else {
   echo "Have a good night!.";

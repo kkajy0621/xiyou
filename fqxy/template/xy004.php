@@ -4683,7 +4683,236 @@ echo "错误地图,编号：".$dty."<br>";
 }
 
 
+//诛仙台地图
+ } elseif ($dtx==91) {
+ 
+if ($dty==0) {
+$dty=1;
+} elseif ($dty==1) {
+$dty=2;
+} elseif ($dty==2) {
+$dty=3;
+} elseif ($dty==3) {
+$dty=4;
+} elseif ($dty==4) {
+$dty=5;
+} elseif ($dty==5) {
+$dty=6;
+} elseif ($dty==6) {
+$dty=7;
+} elseif ($dty==7) {
+$dty=8;
+} elseif ($dty==8) {
+$dty=9;
+} elseif ($dty==9) {
+$dty=10;
+} elseif ($dty==10) {
+$dty=11;
+} elseif ($dty==11) {
+$dty=12;
+} elseif ($dty==12) {
+$dty=13;
+} elseif ($dty==13) {
+$dty=14;
+} elseif ($dty==14) {
+$dty=15;
+} elseif ($dty==15) {
+$dty=16;
 
+} elseif ($dty==16) {
+$dty=17;
+} elseif ($dty==17) {
+$dty=18;
+} elseif ($dty==18) {
+$dty=19;
+
+} elseif ($dty==19) {
+$dty=20;
+
+} elseif ($dty==20) {
+$dty=21;
+
+} elseif ($dty==21) {
+$dty=22;
+
+} elseif ($dty==22) {
+$dty=23;
+} elseif ($dty==23) {
+$dty=24;
+} elseif ($dty==24) {
+$dty=25;
+} elseif ($dty==25) {
+$dty=26;
+} elseif ($dty==26) {
+$dty=27;
+} elseif ($dty==27) {
+$dty=28;
+} elseif ($dty==28) {
+$dty=29;
+} elseif ($dty==29) {
+$dty=30;
+} elseif ($dty==30) {
+$dty=31;
+} elseif ($dty==31) {
+$dty=32;
+} elseif ($dty==32) {
+$dty=33;
+} elseif ($dty==33) {
+$dty=34;
+} elseif ($dty==34) {
+$dty=35;
+} elseif ($dty==35) {
+$dty=36;
+} elseif ($dty==36) {
+$dty=37;
+} elseif ($dty==37) {
+$dty=38;
+} elseif ($dty==38) {
+$dty=39;
+
+} elseif ($dty==39) {
+$dty=40;
+} elseif ($dty==40) {
+$dty=41;
+} elseif ($dty==41) {
+$dty=42;
+
+} elseif ($dty==42) {
+$dty=43;
+} elseif ($dty==43) {
+$dty=44;
+} elseif ($dty==44) {
+$dty=45;
+} elseif ($dty==45) {
+$dty=46;
+} elseif ($dty==46) {
+$dty=47;
+} elseif ($dty==47) {
+$dty=48;
+} elseif ($dty==48) {
+$dty=49;
+} elseif ($dty==49) {
+$dty=50;
+} elseif ($dty==50) {
+$dty=51;
+} elseif ($dty==51) {
+$dty=52;
+} elseif ($dty==52) {
+$dty=53;
+} elseif ($dty==53) {
+$dty=54;
+} elseif ($dty==54) {
+$dty=55;
+} elseif ($dty==55) {
+$dty=56;
+} elseif ($dty==56) {
+$dty=57;
+} elseif ($dty==57) {
+$dty=58;
+} elseif ($dty==58) {
+$dty=59;
+} elseif ($dty==59) {
+$dty=60;
+} elseif ($dty==60) {
+$dty=61;
+
+} elseif ($dty==61) {
+$dty=62;
+} elseif ($dty==62) {
+$dty=63;
+
+
+
+} elseif ($dty==63) {
+$dty=64;
+} elseif ($dty==64) {
+$dty=65;
+
+} elseif ($dty==65) {
+$dty=66;
+} elseif ($dty==66) {
+$dty=67;
+
+
+} elseif ($dty==67) {
+$dty=68;
+} elseif ($dty==68) {
+$dty=69;
+
+
+} elseif ($dty==69) {
+$dty=70;
+} elseif ($dty==70) {
+$dty=71;
+
+} elseif ($dty==71) {
+$dty=72;
+} elseif ($dty==72) {
+$dty=73;
+
+} elseif ($dty==73) {
+$dty=74;
+} elseif ($dty==74) {
+$dty=75;
+
+
+} elseif ($dty==75) {
+$dty=76;
+} elseif ($dty==76) {
+$dty=77;
+
+
+} elseif ($dty==77) {
+$dty=78;
+} elseif ($dty==78) {
+$dty=79;
+} elseif ($dty==79) {
+$dty=80;
+} elseif ($dty==80) {
+$dty=81;
+
+} elseif ($dty==81) {
+$dty=82;
+
+} elseif ($dty==82) {
+$dty=83;
+} elseif ($dty==83) {
+$dty=84;
+} elseif ($dty==84) {
+$dty=85;
+} elseif ($dty==85) {
+$dty=86;
+} elseif ($dty==86) {
+$dty=87;
+} elseif ($dty==87) {
+$dty=88;
+} elseif ($dty==88) {
+$dty=89;
+} elseif ($dty==89) {
+$dty=90;
+} elseif ($dty==90) {
+$dty=91;
+} elseif ($dty==91) {
+$dty=92;
+} elseif ($dty==92) {
+$dty=93;
+} elseif ($dty==93) {
+$dty=94;
+} elseif ($dty==94) {
+$dty=95;
+} elseif ($dty==95) {
+$dty=96;
+} elseif ($dty==96) {
+$dty=97;
+} elseif ($dty==97) {
+$dty=98;
+} elseif ($dty==98) {
+$dty=99;
+
+
+} else {
+  echo "错误地图,编号：".$dty."<br>";
+}
 
 
 
