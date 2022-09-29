@@ -1835,6 +1835,12 @@ if ($pd==2) {
 
 include("./box/ys.php");
 
+//cmd及超链接值
+$cmid=$cmid+1;
+$cdid[]=$cmid;
+$clj[]=312;
+$npc[]=35;
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【再来一次】</font></a>"."<br>";
 
 //cmd及超链接值
 $cmid=$cmid+1;
@@ -1874,6 +1880,12 @@ if ($pd==2) {
 
 include("./box/js.php");
 
+//cmd及超链接值
+$cmid=$cmid+1;
+$cdid[]=$cmid;
+$clj[]=312;
+$npc[]=36;
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【再来一次】</font></a>"."<br>";
 
 //cmd及超链接值
 $cmid=$cmid+1;
@@ -5236,7 +5248,7 @@ $wpdz5=[];//初始
 $wpdz1[]="银两";//名字
 $wpdz2[]=0;//物品分类
 $wpdz3[]=0;//物品id
-$wpdz4[]=50000000;//	需要扣除的量
+$wpdz4[]=100000000;//	需要扣除的量
 $wpdz5[]=0;//	重量
 //提供需要扣除的物品作为判读依据
 include("./pz/ini_pzz026.php");
@@ -5277,23 +5289,23 @@ $bz= rand(1, 100);
 if($bz >=1&&$bz <=40){
 
 //经验加
-$jy=3000000;	
+$jy=6000000;	
 include("./pz/ini_pzz023.php");
 //银两加
 } elseif($bz >=41&&$bz <=70){
 //经验加
-$jy=8888888;	
+$jy=16000000;	
 include("./pz/ini_pzz023.php");
 //银两加
 } elseif($bz >=71&&$bz <=90){
 //经验加
-$jy=15000000;	
+$jy=25000000;	
 include("./pz/ini_pzz023.php");
 //银两加
 
 } elseif($bz >=91&&$bz <=100){
 //经验加
-$jy=30000000;	
+$jy=40000000;	
 include("./pz/ini_pzz023.php");
 //银两加
 
@@ -5315,7 +5327,7 @@ $npc[]=93;
 echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>再许愿一次</font></a>"."<br>";
 echo "<br>";
 } else{
-echo "<font color=black>对不起！每次许愿需要银两5000万</font><br>";
+echo "<font color=black>对不起！每次许愿需要银两1亿两</font><br>";
 }
 
 
