@@ -1,15 +1,2 @@
 .idea
 .DS_Store
-*.ini
-*.txt
-**/all_ip
-**/map/cwd77x?
-**/phb/phb*
-*.bat
-**/config/config.php
-fqxy/mb/mbmb*.php
-fqxy/mb/bhxt0x99999.php
-**/zlbp.php
-bin/data/*
-!bin/data/.gitkeep
-fqxy/msg/msg0[1-9].php
