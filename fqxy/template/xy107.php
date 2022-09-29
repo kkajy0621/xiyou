@@ -1965,14 +1965,14 @@ BUG，相信一定逃不过大家的火眼精金的！</font><br>";
     echo "<font color=black>5.活动期间充值送七夕万能字</font><br>";
     echo "<font color=red>每充值10元送〖七夕万能字〗x50</font><br>";
     echo "<font color=black>6.典藏活动充值榜具体见榜单为准</font><br>";
-} elseif ($ckid ==28) {//【活动-国庆活动】（10.1-10.8晚23点55结束）
-    echo "<font color=red>活动时间2022.10.1-2022.10.7</font><br>";
+} elseif ($ckid ==28) {//【活动-国庆节活动】(2022.10.1至10.8晚24点结束）
+    echo "<font color=red>活动时间(2022.10.1至10.8晚24点结束）</font><br>";
     echo "<br>";
-    echo "<font color=black>1.每日玩家可在爱国富商处领取【五星红旗】可进行升旗仪式</font><br>";
+    echo "<font color=black>1.每日玩家可在玄武大街-爱国富商处领取【五星红旗】可进行升旗仪式</font><br>";
     echo "<br>";
-    echo "<font color=black>2.玩家每日可进行升旗，将旗帜高高挂起扬我国威有一定的概率获得1-10金豆，1-5个云梯石头</font><br>";
+    echo "<font color=black>2.玩家每日可进行升旗，将旗帜高高挂起扬我国威有一定的概率获得1-10〖金豆〗，1-5个〖云梯石〗</font><br>";
     echo "<br>";
-    echo "<font color=black>3.各大副本掉落【欢】【度】【国】【庆】四字有一定的概率掉落【国庆愉快卡】可在爱国富商处兑换奖励</font><br>";
+    echo "<font color=black>3.各大副本天降秘宝掉落【欢】【度】【国】【庆】四字有一定的概率掉落【国庆愉快卡】可在爱国富商处兑换奖励</font><br>";
     echo "<br>";
     echo "<font color=black>4.每日每名玩家可领取【国庆金铲】国庆打开宝藏图进行挖宝（需要国庆藏宝图一张）</font><br>";
     echo "<br>";
@@ -2025,7 +2025,7 @@ BUG，相信一定逃不过大家的火眼精金的！</font><br>";
     echo "<font color=black>第9名：20个〖云梯石〗</font><br>";
     echo "<font color=black>第10名：10个〖云梯石〗</font><br>";
     echo "<br>";
-    echo "<font color=red>12.玄武大街新增〖至尊宝石〗合成具体属性看游戏内</font><br>";
+    echo "<font color=red>12.朱雀大街新增〖帝王宝石〗合成具体属性看游戏内</font><br>";
     echo "<br>";
     echo "<font color=red>13.国庆期间商城〖云梯石〗特价处理</font><br>";
     echo "<br>";
@@ -4533,77 +4533,6 @@ BUG，相信一定逃不过大家的火眼精金的！</font><br>";
     echo "<font color=black>第10名以外无奖励</font>"."<br>";
     echo "<font color=red>---------------等级榜-------------</font><br>";
     echo "<font color=red>备注：以上各个排行榜现金红包需要充值榜总共金额达到1000元以上给予发放现金红包否则将兑换为对应金额自充卡（发给幻想西游GM即可QQ私聊找群主兑换）</font><br>";
-
-
-    /*
-    } elseif($ckid ==36){//【活动-开区活动】(傲来国宝象国同时有效)
-    echo "<font color=red>开区活动介绍</font><br>";
-    echo "<font color=red>活动时间2022.11.26-2022.12.02</font><br>";
-    echo "<font color=balck>长安城来了位不速之客点石成金，对你没看错可用金矿劵换购各类充值卡分四个区域铁铜银金矿山需要〖点石成金劵〗入场停留时间为5分钟，怪物掉落随机〖金矿石〗看个人运气</font><br>";
-    echo "<font color=black>每充值10元赠送〖点石成金劵〗x10</font><br>";
-    echo "<font color=black>往日活动重启如下：</font><br>";
-    echo "<br>";
-    echo "<font color=black>玄武大街出“摔伤的老人”、“奇怪的商人”、“重阳婆婆”NPC</font><br>";
-    echo "<br>";
-    echo "<font color=black>“摔伤的老人”提示：小仙卿，我本是高家庄人氏，重阳节路过长安想去登高，岂料遇上了这附近的妖怪，把我身上的带着的【重阳糕】原料夺去了。小仙卿你帮我找回来，我给你做美味的【重阳糕】和传授你种植的技术。</font><br>";
-    echo "<br>";
-    echo "<font color=black>1.副本掉落、挑战区域掉落【面粉】、【红枣】、【栗子】、【杏仁】、【黑沃土】、【仙玉露】、〖小公主の材料票〗、〖小公主の仙竹〗一定数量的以上4物可以在“摔伤的老人”那里制作兑换【重阳糕】。【重阳糕】可以兑换称号、〖小公主の激素〗</font><br>";
-    echo "<br>";
-    echo "<font color=black>2.奇怪的商人可使用〖小公主の材料票〗购买【面粉】、【红枣】、【栗子】、【杏仁】</font><br>";
-    echo "<br>";
-    echo "<font color=black>3.重阳婆婆购买〖小公主の材料票〗购买【黑沃土】（用于施肥）、【仙玉露】（用于施肥）、〖小公主の仙竹〗（可用于重阳节活动争夺积分榜）</font><br>";
-    echo "<br>";
-    echo "<font color=black>4.农场【黑沃土】【仙玉露】进行施肥必须在最晚施肥时间使用否则之前种植的消失，可使用〖紫星币〗对种植物品进行升级最好5级，成功加1级，失败减1级，到达收获时间则可进行收获普通收割有百分之50的遭遇虫灾。紫星币x20收割免疫虫灾</font><br>";
-    echo "<br>";
-    echo "<font color=black>5.充值（不累计）对应金额送对应金额的套装包，50送圣灵白板套装，100送圣灵1级套装，200送圣灵2级套装，500送圣灵3级套装，1000送圣灵4级套装，2000送噬魂套装（需告知gm是否需要，不需要则转换为金豆1元=5豆）</font><br>";
-    echo "<br>";
-    echo "<font color=black>6.充值（不累计）每充值1元赠送〖紫星币〗x1</font><br>";
-    echo "<br>";
-    echo "<font color=black>7.充值（累计）满100送〖比翼双飞〗（典藏套装）套装，满200送【喜鹊令】x2，满500送〖七夕令〗x2，满1000送〖七夕令〗x4（需告知gm是否需要，不需要则转换为金豆1元=5豆）</font><br>";
-    echo "<br>";
-    echo "<font color=black>8.充值（累计）满10元送〖小公主の材料票〗x100，满20元送〖小公主の材料票〗x200，满50元送〖小公主の材料票〗x500，满100元送〖小公主の材料票〗x1000，满200元送〖小公主の材料票〗x2000，满500元送〖小公主の材料票〗x5000，满1000元送〖小公主の材料票〗x10000，满2000元送〖小公主の材料票〗x20000
-    备注：满后面的则把前面赠送的一起拿掉</font><br>";
-    echo "<br>";
-    echo "<font color=black>9.充值任意金额送〖绝代芳华〗x1（每个玩家1次）</font><br>";
-    echo "<br>";
-    echo "<font color=black>10.积分榜</font><br>";
-    echo "<font color=black>第1名：〖君临王城の至尊皇者〗x1，〖至尊无敌〗x1，〖妖火天尊〗x1，〖护身符〗x100</font><br>";
-    echo "<font color=black>第2名：〖至尊无敌〗x1，〖妖火天尊〗x1，〖护身符〗x60</font><br>";
-    echo "<font color=black>第3名：〖妖火天尊〗x1，〖护身符〗x30</font><br>";
-    echo "<font color=black>第4名：〖护身符〗x20</font><br>";
-    echo "<font color=black>第5名：〖护身符〗x15</font><br>";
-    echo "<font color=black>第6名：〖护身符〗x10</font><br>";
-    echo "<font color=black>第7名：〖护身符〗x8</font><br>";
-    echo "<font color=black>第8名：〖护身符〗x5</font><br>";
-    echo "<font color=black>第9名：〖护身符〗x3</font><br>";
-    echo "<font color=black>第10名：〖护身符〗x1</font><br>";
-    echo "<br>";
-    echo "<font color=black>11.充值榜</font><br>";
-    echo "<font color=black>第1名：〖君临天下の武道至尊〗x1，〖倾城佳人の艳冠天下〗x1，〖风流倜傥の百战无双〗x1，〖天下无双の群雄霸主〗x1，〖护身符〗x300</font><br>";
-    echo "<font color=black>第2名：〖倾城佳人の艳冠天下〗x1，〖风流倜傥の百战无双〗x1，〖天下无双の群雄霸主〗x1，〖护身符〗x200</font><br>";
-    echo "<font color=black>第3名：〖风流倜傥の百战无双〗x1，〖天下无双の群雄霸主〗x1，〖护身符〗x100</font><br>";
-    echo "<font color=black>第4名：〖天下无双の群雄霸主〗x1，〖护身符〗x50</font><br>";
-    echo "<font color=black>第5名：〖天下无双の群雄霸主〗x1，〖护身符〗x30</font><br>";
-    echo "<font color=black>第6名：〖天下无双の群雄霸主〗x1，〖护身符〗x20</font><br>";
-    echo "<font color=black>第7名：〖天下无双の群雄霸主〗x1，〖护身符〗x10</font><br>";
-    echo "<font color=black>第8名：〖天下无双の群雄霸主〗x1，〖护身符〗x8</font><br>";
-    echo "<font color=black>第9名：〖天下无双の群雄霸主〗x1，〖护身符〗x5</font><br>";
-    echo "<font color=black>第10名：〖天下无双の群雄霸主〗x1，〖护身符〗x3</font><br>";
-    echo "<br>";
-    echo "<font color=black>12.充值（不累计）每消费50送〖金锭〗x1送〖至尊宝石〗x1</font><br>";
-    echo "<br>";
-    echo "<font color=black>13.充值金豆返利活动</font><br>";
-    echo "<font color=red>11月26日：充值金豆返利200%</font><br>";
-    echo "<font color=red>11月27日：充值金豆返利170%</font><br>";
-    echo "<font color=red>11月28日：充值金豆返利140%</font><br>";
-    echo "<font color=red>11月29日：充值金豆返利110%</font><br>";
-    echo "<font color=red>11月30日：充值金豆返利80%</font><br>";
-    echo "<font color=red>12月01日：充值金豆返利50%</font><br>";
-    echo "<font color=red>12月02日：充值金豆返利30%</font><br>";
-    echo "<br>";
-    echo "<font color=black>14.蚂蚁花呗消费送充值金额的百分之10现金红包</font><br>";
-    echo "<br>";
-    */
 } else {
 }
 
