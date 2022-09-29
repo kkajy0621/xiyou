@@ -68,8 +68,7 @@ if ($zsspd==1) {
     $clj[]=675;
     $npc[]=0;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=red>【SDK码兑换】</font></a>";
-    echo "<font color=black>-</font>";
-
+    echo "<br>";
     //cmd及超链接值
     $cmid=$cmid+1;
     $cdid[]=$cmid;
@@ -77,6 +76,8 @@ if ($zsspd==1) {
     $npc[]=0;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=red>【退出登录】</font></a>";
 
+    echo "<br>";
+    echo "<br>";
     echo "<br>";
 
 
