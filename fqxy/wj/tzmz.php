@@ -1012,3 +1012,501 @@ if(count($arr3)==1){
 } else{
 }
 /////////套装//////////
+
+
+
+//以下代码为2022年9月22号新增
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=671;
+$arr2[]=672;
+$arr2[]=673;
+$arr2[]=674;
+$arr2[]=675;
+
+$arr2[]=676;
+$arr2[]=677;
+$arr2[]=678;
+$arr2[]=679;
+$arr2[]=680;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=73;//套装id
+    echo "<font color=red>【仙尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=74;//套装id
+    echo "<font color=red>【仙尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=75;//套装id
+    echo "<font color=red>【仙尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=76;//套装id
+    echo "<font color=red>【仙尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=77;//套装id
+    echo "<font color=red>【仙尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=681;
+$arr2[]=682;
+$arr2[]=683;
+$arr2[]=684;
+$arr2[]=685;
+
+$arr2[]=686;
+$arr2[]=687;
+$arr2[]=688;
+$arr2[]=689;
+$arr2[]=690;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=78;//套装id
+    echo "<font color=red>【神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=79;//套装id
+    echo "<font color=red>【神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=80;//套装id
+    echo "<font color=red>【神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=81;//套装id
+    echo "<font color=red>【神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=82;//套装id
+    echo "<font color=red>【神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=691;
+$arr2[]=692;
+$arr2[]=693;
+$arr2[]=694;
+$arr2[]=695;
+
+$arr2[]=696;
+$arr2[]=697;
+$arr2[]=698;
+$arr2[]=699;
+$arr2[]=700;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=83;//套装id
+    echo "<font color=red>【圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=84;//套装id
+    echo "<font color=red>【圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=85;//套装id
+    echo "<font color=red>【圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=86;//套装id
+    echo "<font color=red>【圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=87;//套装id
+    echo "<font color=red>【圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=701;
+$arr2[]=702;
+$arr2[]=703;
+$arr2[]=704;
+$arr2[]=705;
+
+$arr2[]=706;
+$arr2[]=707;
+$arr2[]=708;
+$arr2[]=709;
+$arr2[]=710;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=88;//套装id
+    echo "<font color=red>【混沌天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=89;//套装id
+    echo "<font color=red>【混沌天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=90;//套装id
+    echo "<font color=red>【混沌天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=91;//套装id
+    echo "<font color=red>【混沌天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=92;//套装id
+    echo "<font color=red>【混沌天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=711;
+$arr2[]=712;
+$arr2[]=713;
+$arr2[]=714;
+$arr2[]=715;
+
+$arr2[]=716;
+$arr2[]=717;
+$arr2[]=718;
+$arr2[]=719;
+$arr2[]=720;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=93;//套装id
+    echo "<font color=red>【混沌神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=94;//套装id
+    echo "<font color=red>【混沌神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=95;//套装id
+    echo "<font color=red>【混沌神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=96;//套装id
+    echo "<font color=red>【混沌神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=97;//套装id
+    echo "<font color=red>【混沌神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=721;
+$arr2[]=722;
+$arr2[]=723;
+$arr2[]=724;
+$arr2[]=725;
+
+$arr2[]=726;
+$arr2[]=727;
+$arr2[]=728;
+$arr2[]=729;
+$arr2[]=730;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=98;//套装id
+    echo "<font color=red>【混沌圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=99;//套装id
+    echo "<font color=red>【混沌圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=100;//套装id
+    echo "<font color=red>【混沌圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=101;//套装id
+    echo "<font color=red>【混沌圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=102;//套装id
+    echo "<font color=red>【混沌圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=731;
+$arr2[]=732;
+$arr2[]=733;
+$arr2[]=734;
+$arr2[]=735;
+
+$arr2[]=736;
+$arr2[]=737;
+$arr2[]=738;
+$arr2[]=739;
+$arr2[]=740;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=103;//套装id
+    echo "<font color=red>【鸿蒙天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=104;//套装id
+    echo "<font color=red>【鸿蒙天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=105;//套装id
+    echo "<font color=red>【鸿蒙天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=106;//套装id
+    echo "<font color=red>【鸿蒙天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=107;//套装id
+    echo "<font color=red>【鸿蒙天尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=741;
+$arr2[]=742;
+$arr2[]=743;
+$arr2[]=744;
+$arr2[]=745;
+
+$arr2[]=746;
+$arr2[]=747;
+$arr2[]=748;
+$arr2[]=749;
+$arr2[]=750;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=108;//套装id
+    echo "<font color=red>【鸿蒙神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=109;//套装id
+    echo "<font color=red>【鸿蒙神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=110;//套装id
+    echo "<font color=red>【鸿蒙神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=111;//套装id
+    echo "<font color=red>【鸿蒙神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=112;//套装id
+    echo "<font color=red>【鸿蒙神尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
+
+
+
+/////////套装//////////
+$arr2=[];
+$arr3=[];
+$tzms=[];
+$arr2[]=751;
+$arr2[]=752;
+$arr2[]=753;
+$arr2[]=754;
+$arr2[]=755;
+
+$arr2[]=756;
+$arr2[]=757;
+$arr2[]=758;
+$arr2[]=759;
+$arr2[]=760;
+
+
+$arr3=array_intersect($arr1,$arr2);
+if(count($arr3)==1){
+} elseif(count($arr3)==2){
+    $tzid=113;//套装id
+    echo "<font color=red>【鸿蒙圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==3){
+    $tzid=114;//套装id
+    echo "<font color=red>【鸿蒙圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==4){
+    $tzid=115;//套装id
+    echo "<font color=red>【鸿蒙圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==5){
+    $tzid=116;//套装id
+    echo "<font color=red>【鸿蒙圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} elseif(count($arr3)==6){
+    $tzid=117;//套装id
+    echo "<font color=red>【鸿蒙圣尊套】(".count($arr3)."/6)</font></a>"."<br>";
+    include("./wj/tzmzxx.php");
+    include("./wj/tzmzxx01.php");
+    echo "<font color=black>".$tzms."</font></a>";
+} else{
+}
+/////////套装//////////
