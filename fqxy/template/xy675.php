@@ -93,9 +93,9 @@ echo "<br>";
 
 
 <?php
-echo "<font color=red>幻想西游2018年11月5日新区（乌鸡国）即将火热开启，我们不见不散</font><br>";
+echo "<font color=red>幻想西游2022年09月18日新区（傲来国）即将火热开启，我们不见不散</font><br>";
 echo "<font color=red>进群填写我的邀请游戏ID：".$wjid."</font><br>";
-echo "<font color=red>填写邀请ID即可领取超值新区（乌鸡国）SDK码包含如下福利奖励</font><br>";
+echo "<font color=red>填写邀请ID即可领取超值新区（傲来国）SDK码包含如下福利奖励</font><br>";
 echo "<font color=red>【50元充值卡】x1</font><br>";
 echo "<font color=red>【尊享VIP】（3天）x1</font><br>";
 echo "<font color=red>【万能果】x500</font><br>";
@@ -109,8 +109,8 @@ echo "<font color=red>【vip练级卷】x20</font><br>";
 echo "<font color=red>原汁原味的幻想西游，全新的任务，pk，国战，宠物，住宅等等，携爱共走西游路</font><br>";
 
 
-echo "<font color=red>QQ交流群：54665469</font><br>";
-echo "<font color=red>游戏网址：www.hfqyx.cn</font><br>";
+echo "<font color=red>QQ交流群：待添加</font><br>";
+echo "<font color=red>游戏网址：待添加</font><br>";
 
 
 
