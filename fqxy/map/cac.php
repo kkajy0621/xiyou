@@ -96,21 +96,24 @@ if ($dty==0) {
     $clj[]=7;
     $npc[]=10002;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>西游补偿大使</font></a>"."<br>";
-    //cmd及超链接值
-    //$cmid=$cmid+1;
-    //$cdid[]=$cmid;
-    //$clj[]=7;
-    //$npc[]=5492;//需要改动
-    //echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>新年大使</font></a>"."<br>";
-    //cmd及超链接值
-    //$cmid=$cmid+1;
-    //$cdid[]=$cmid;
-    //$clj[]=324;
-    //$npc[]=0;//需要改动
-    //echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>新年年兽召唤(集众人之力召唤出年兽)</font></a>"."<br>";
-    //查询公共消息
-    //@TODO 文件未找到
-    //include("./map/wjgg.php");
+
+    /*  //待开发npc
+        //cmd及超链接值
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=5492;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>新年大使</font></a>"."<br>";
+        //cmd及超链接值
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=324;
+        $npc[]=0;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>新年年兽召唤(集众人之力召唤出年兽)</font></a>"."<br>";
+        //查询公共消息
+        //@TODO 文件未找到
+        //include("./map/wjgg.php");
+    */
     //出口
     echo "<font color=black>请选择出口</font>"."<br>";
     $cmid=$cmid+1;
@@ -191,8 +194,6 @@ if ($dty==0) {
     $clj[]=7;
     $npc[]=1081;//需要改动
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【龟仙人】（时装兑换）</font></a>"."<br>";
-    // $img='pic/ts/ts1.png';
-    // echo '<img src="'.$img.' "alt="图片"/>';
     //cmd及超链接值
     $cmid=$cmid+1;
     $cdid[]=$cmid;
@@ -200,423 +201,438 @@ if ($dty==0) {
     $npc[]=637;//需要改动
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【如意传送员】(VIP练级区)</font></a>"."<br>";
 
-    // if (hdpd(1)) {
-    $img = 'pic/ts/ts1.png';
-    echo '<img src="' . $img . ' "alt="图片"/〉';
-    echo "<br>";
-    $cmid = $cmid + 1;
-    $cdid[] = $cmid;
-    $clj[] = 7;
-    $npc[] = 1079;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗吴刚</font></a>" . "<br>";
-    $img = 'pic/ts/ts1.png';
-    echo '<img src="' . $img . ' "alt="图片"/〉';
-    echo "<br>";
-    $cmid = $cmid + 1;
-    $cdid[] = $cmid;
-    $clj[] = 7;
-    $npc[] = 1080;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗嫦娥姐姐</font></a>" . "<br>";
-    // }
-
-    // $img='pic/ts/ts1.png';
-    //echo '<img src="'.$img.' "alt="图片"/〉';
-    //echo "<br>";
-    //cmd及超链接值
-    //$cmid=$cmid+1;
-    //$cdid[]=$cmid;
-    //$clj[]=7;
-    //$npc[]=5491;//需要改动
-    //echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>五斗星君(暖冬活动)</font></a>"."<br>";
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=735;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗万恶的班主任</font></a>"."<br>";
-
     /*
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=448;
-    $npc[]=0;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=red>【宠物孵化台】</font></a>"."<br>";
+        //待开发活动npc，可加入到任意节日活动中
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=22;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗今日抢购活动【待开发】</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=23;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗财神爷(奖励领取)【待开发】</font></a>"."<br>";
+        //待开发活动npc，可加入到任意节日活动中
     */
 
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
+    //长期活动
     //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=798;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗唐三藏</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1008;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗体育老师</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1010;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗校长</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1004;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗苏于迟</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1005;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗潇道长</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1007;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗蓝铮</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1006;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗苏小白</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=736;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗老夫子（才子印记兑换）</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1009;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗脑筋急转弯老师</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1001;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗紫霞仙子</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1002;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗青霞仙子</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1078;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗至尊宝（抢榜）</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=922;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗牛郎</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/〉';
-    echo "<br>";
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=923;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗织女</font></a>"."<br>";
-
     $img='pic/ts/ts1.png';
     echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=22;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗今日抢购活动【待开发】</font></a>"."<br>";
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=23;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗财神爷(奖励领取)【待开发】</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1082;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗爱国富商（领红旗，升国旗）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1083;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗国庆大使（字体兑换,抢榜）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=635;
-    $npc[]=0;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗【国庆金蛋】</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=638;
-    $npc[]=0;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗【国庆挖宝】</font></a>"."<br>";
-    /*
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1083;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗国庆大使（保留三天）</font></a>"."<br>";
-     */
-
-    // echo "<font color=red>感恩一路有你们相伴（半周年庆典）保留三天请尽快兑换</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1203;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗【小果】</font><font color=red>（制作蛋糕）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1204;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗公主的小朋友</font><font color=red>（制作饼干）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1205;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗时尚网迷</font><font color=red>（制作面包）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1206;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗南风</font><font color=red>（制作巧克力）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1208;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗永不言败</font><font color=red>（生日甜品礼盒）</font></a>"."<br>";
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1209;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗LoKC</font><font color=red>（贩卖原材料）</font></a>"."<br>";
-    // echo "<font color=red>感恩一路有你们相伴（半周年庆典）保留三天请尽快兑换</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1207;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗姝菟</font><font color=red>（抢积分榜）</font></a>"."<br>";
-
-    /*
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1314;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗摔伤的老人（保留三天）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1315;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗奇怪的商人（保留三天）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1316;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗重阳婆婆（保留三天）</font></a>"."<br>";
-    */
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1318;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗西方传教士（万圣节积分榜）</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1319;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗西方传教士（万圣节奖励）</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1320;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗南瓜大仙</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1321;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗竞猜使者</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1322;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗火鸡先生</font></a>"."<br>";
-
-
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1314;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗摔伤的老人</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1315;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗奇怪的商人</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1316;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗重阳婆婆</font></a>"."<br>";
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    //cmd及超链接值
     $cmid=$cmid+1;
     $cdid[]=$cmid;
     $clj[]=658;
     $npc[]=0;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗农场</font></a>"."<br>";
-
+    //cmd及超链接值
     $img='pic/ts/ts1.png';
     echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1321;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗竞猜使者</font></a>"."<br>";
     //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
     $cmid=$cmid+1;
     $cdid[]=$cmid;
     $clj[]=7;
     $npc[]=1323;//需要改动
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗点石成金传送员</font></a>"."<br>";
+    //长期活动
+
+    /*
+        //7月【暑期活动第一波】活动时间（2022.7.3至2022.7.10晚8点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=735;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖暑期活动〗万恶的班主任</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=736;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖暑期活动〗老夫子（才子印记兑换）</font></a>"."<br>";
+        //7月暑期活动第一波，活动时间（2022.7.3至2022.7.10晚8点）
+     */
+
+
+
+    /*
+        //7月暑期活动第二波，活动时间（2022.7.14至7.24晚8点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=798;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖暑期活动〗唐三藏</font></a>"."<br>";
+        //7月暑期活动第二波，活动时间（2022.7.14至7.24晚8点）
+    */
+
+
+    /*
+        //7月活动，活动时间(2022.7.27至8.3晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=922;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗牛郎</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=923;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗织女</font></a>"."<br>";
+        //7月活动，活动时间(2022.7.27至8.3晚24点）
+    */
+
+
+
+    /*
+        //8月活动npc，活动时间（2022.8-4至8-15晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1001;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗紫霞仙子</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1002;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗青霞仙子</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1078;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗至尊宝（抢榜）</font></a>"."<br>";
+        //8月活动npc，活动时间（2022.8-4至8-15晚24点）
+    */
+
+
+
+    /*
+        //8月七夕节活动，活动时间(2022.8.17至8.25晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1004;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖七夕节活动〗苏于迟</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1005;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖七夕节活动〗潇道长</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1007;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖七夕节活动〗蓝铮</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1006;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖七夕节活动〗苏小白</font></a>"."<br>";
+        //8月七夕节活动，活动时间(2022.8.17至8.25晚24点）
+    */
+
+
+
+    /*
+        //8月开学活动（2022.8-27至9-2晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1008;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖开学活动〗体育老师</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1009;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖开学活动〗脑筋急转弯老师</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/〉';
+        echo "<br>";
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1010;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖开学活动〗校长</font></a>"."<br>";
+        //8月开学活动（2022.8-27至9-2晚24点）
+    */
+
+
+
+    /*
+        //9月中秋节活动，活动时间(2022.9.9至9.17晚24点）
+        //保留活动判断
+        // if (hdpd(1)) {
+        //cmd及超链接值
+        $img = 'pic/ts/ts1.png';
+        echo '<img src="' . $img . ' "alt="图片"/〉';
+        echo "<br>";
+        $cmid = $cmid + 1;
+        $cdid[] = $cmid;
+        $clj[] = 7;
+        $npc[] = 1079;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖中秋节活动〗吴刚</font></a>" . "<br>";
+        //cmd及超链接值
+        $img = 'pic/ts/ts1.png';
+        echo '<img src="' . $img . ' "alt="图片"/〉';
+        echo "<br>";
+        $cmid = $cmid + 1;
+        $cdid[] = $cmid;
+        $clj[] = 7;
+        $npc[] = 1080;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖中秋节活动〗嫦娥姐姐</font></a>" . "<br>";
+        // }
+        //保留活动判断
+        //9月中秋节活动，活动时间(2022.9.9至9.17晚24点）
+    */
+
+
+
+
+
+    //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1082;//需要改动
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗爱国富商（领红旗，升国旗）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1083;//需要改动
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗国庆大使（字体兑换,抢榜）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=635;
+    $npc[]=0;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆金蛋】</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=638;
+    $npc[]=0;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆挖宝】</font></a>"."<br>";
+    //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
+
+
+    /*
+        //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1203;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗【小果】</font><font color=red>（制作蛋糕）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1204;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗公主的小朋友</font><font color=red>（制作饼干）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1205;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗时尚网迷</font><font color=red>（制作面包）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1206;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗南风</font><font color=red>（制作巧克力）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1208;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗永不言败</font><font color=red>（生日甜品礼盒）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1209;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗LoKC</font><font color=red>（贩卖原材料）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1207;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗姝菟</font><font color=red>（抢积分榜）</font></a>"."<br>";
+        //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+    */
+
+
+
+
+    /*
+        //10月重阳节活动，活动时间(2022.10.17至10.23晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1314;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖重阳节活动〗摔伤的老人</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1315;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖重阳节活动〗奇怪的商人</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1316;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖重阳节活动〗重阳婆婆</font></a>"."<br>";
+        //10月重阳节活动，活动时间(2022.10.17至10.23晚24点）
+    */
+
+
+
+
+    /*
+        //11月万圣节活动，活动时间(2022.11.02至11.15晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1318;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖万圣节活动〗西方传教士（万圣节积分榜）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1319;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖万圣节活动〗西方传教士（万圣节奖励）</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1320;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖万圣节活动〗南瓜大仙</font></a>"."<br>";
+        //11月万圣节活动，活动时间(2022.11.02至11.15晚24点）
+    */
+
+
+    /*
+        //11月感恩节活动，活动时间(2022.11.17至11.24晚24点）
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1322;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖感恩节活动〗火鸡先生</font></a>"."<br>";
+        //11月感恩节活动，活动时间(2022.11.17至11.24晚24点）
+    */
+
+
+
     //出口
     echo "<font color=black>请选择出口</font>"."<br>";
     $cmid=$cmid+1;
