@@ -13,7 +13,7 @@ if($npcc ==9||$npcc==10||$npcc==11||$npcc==12||$npcc==13||$npcc==14||$npcc==15||
 ||$npcc==757||$npcc==758||$npcc==759||$npcc==760||$npcc==761||$npcc==762||$npcc==763||$npcc==764||$npcc==765||$npcc==766||$npcc==767||$npcc==768
 ||$npcc==769||$npcc==770||$npcc==868||$npcc==869||$npcc==870||$npcc==871||$npcc==872||$npcc==873||$npcc==874||$npcc==875||$npcc==876||$npcc==877
 ||$npcc==878||$npcc==879||$npcc==880||$npcc==881||$npcc==882||$npcc==883||$npcc==884||$npcc==885||$npcc==886||$npcc==887||$npcc==888||$npcc==889
-||$npcc==890||$npcc==891||$npcc >=1012&&$npcc <=1031||$npcc >=1065&&$npcc <=1084){
+||$npcc==890||$npcc==891||$npcc==425||$npcc >=1012&&$npcc <=1031||$npcc >=1065&&$npcc <=1084){
 
 $mmd1=2;
 } else{
