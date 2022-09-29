@@ -448,7 +448,7 @@ include("./pz/ini_pz01.php");//调用ini缓存位置
 
 
 
-} elseif($npcc ==790){//【三区水帘洞助力包】
+} elseif($npcc ==790){//【一区傲来国助力包】
 
 
 
