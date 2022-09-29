@@ -194,7 +194,7 @@ $iniFile->updItem('活动次数', [$hdid => $hdcs]);
 
 
 } else{	
-echo "<font color=red>对不起！请联系小轩GM处理</font></br>"; 	
+echo "<font color=red>对不起！请联系GM处理</font></br>"; 	
 
 }
 

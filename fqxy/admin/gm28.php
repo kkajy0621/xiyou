@@ -2,7 +2,7 @@
 
 
 
-echo "<font color=red>【小轩GM代码】</font>"."<br>";
+echo "<font color=red>【GM代码】</font>"."<br>";
 
 echo "<font color=black>//银两加</font>"."<br>";
 

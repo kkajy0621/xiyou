@@ -51,7 +51,7 @@ $iniFile->updItem($npcc, ['激活时间' => $nowtime,'完成情况' => 1,'重置
 
 } else{	
 
-echo "<font color=black>激活失败了！请尝试联系小轩gm解决此问题</font>"."<br>";
+echo "<font color=black>激活失败了！请尝试联系gm解决此问题</font>"."<br>";
 
 }
 

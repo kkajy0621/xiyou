@@ -59,7 +59,7 @@ if ($yxhe == 2) {
         echo "<br>";
         echo "<br>";
         echo "<font color=red>王者绝非偶然,实力打造非凡</font>" . "<br>";
-        echo "<font color=red>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspby:小轩</font>" . "<br>";
+        echo "<font color=red>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspby:</font>" . "<br>";
         echo "<font color=black>---------------------------</font>" . "<br>";
         echo "<a href='./xy.php?uid=$wjini&cmd=$kcmid&sid=$ka1'><font color=blue>【开启游戏之旅】</font></a>" . "<br>";
 
@@ -69,7 +69,7 @@ if ($yxhe == 2) {
         //检测uid是否存在如果存在整么社区号修改过密码需要重新更新游戏数据
         if ($uid != "") {
             //更改密码后的操作
-            $zcxx1 = "小轩娱乐温馨提醒（由于小轩一站式通行证进行过修改数据验证已同步至游戏，重新登录下即可）";
+            $zcxx1 = "温馨提醒（由于一站式通行证进行过修改数据验证已同步至游戏，重新登录下即可）";
             include("mysql.php");//调用数据库连接
             $q2 = "o_user_list";
             $strsql = "update $q2 set password='$xxjy_pass' where sqid='$sqid'";//物品id号必改值

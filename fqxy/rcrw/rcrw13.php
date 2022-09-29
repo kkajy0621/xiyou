@@ -103,7 +103,7 @@ echo "<font color=black>需要狐狸皮x30，快去吧！</font>"."<br>";
 
 
 } else{	
-echo "<font color=red>对不起！请联系小轩GM处理</font></br>"; 	
+echo "<font color=red>对不起！请联系GM处理</font></br>"; 	
 
 }
 

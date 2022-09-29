@@ -1,6 +1,6 @@
 <?php
 
-echo "<font color=red>【小轩GM得到代码】</font>"."<br>";
+echo "<font color=red>【GM得到代码】</font>"."<br>";
 
 include("gmcode1.php");
 

@@ -32,7 +32,7 @@ echo "<font color=black>解除了对".$wjname."的封号处罚！！</font>"."<b
 
 $wjid1=999;
 $ltbl2=999;
-$ltbl1="小轩GM";
+$ltbl1="GM";
 	//调用msg.ini是否存在
  $wjtake="对你解除了封号，请以后务必遵守游戏规则，祝你游戏愉快！！";
 include("./ini/msg_ini.php");

@@ -2,7 +2,7 @@
 
 
 
-echo "<font color=red>【小轩GM代码】</font>"."<br>";
+echo "<font color=red>【GM代码】</font>"."<br>";
 
 echo "<a href='gm.php?wjid=$wjiddd&&pass=$password&&gid=26'><font color=blue>【得到代码】</font></a>"."<br>";
 

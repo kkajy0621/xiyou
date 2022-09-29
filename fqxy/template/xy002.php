@@ -573,7 +573,7 @@ if($zsspd==1){
         echo "<font color=black>【封号提示】</font>"."<br>";
         echo "<font color=red>[自动解封]：".$jyts."</font>"."<br>";
         echo "<font color=red>[封号描述]：".$jyts1."</font>"."<br>";
-        echo "<font color=blue>最终解释权归小轩GM所有，请您务必遵守游戏的规则，祝您生活愉快！！</font>"."<br>";
+        echo "<font color=blue>最终解释权归幻想西游所有，请您务必遵守游戏的规则，祝您生活愉快！！</font>"."<br>";
         echo "<font color=black>----------------------</font>"."<br>";
 
 //cmd及超链接值

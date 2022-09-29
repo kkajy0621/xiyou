@@ -122,7 +122,7 @@
     } elseif($gid==23){
         include("admin/gm23.php");//【刷新公共数据】执行
     } elseif($gid==24){
-        include("admin/gm24.php");//【小轩GM代码】
+        include("admin/gm24.php");//【GM代码】
     } elseif($gid==26){
         include("admin/gm26.php");//【得到代码】
     } elseif($gid==27){

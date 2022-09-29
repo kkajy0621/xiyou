@@ -39,7 +39,7 @@ include("./template/xy002.php");//游戏主页
 
 
 
-echo "<font color=black>进入住宅出现问题请联系小轩GM解决</font>"."<br>";
+echo "<font color=black>进入住宅出现问题请联系GM解决</font>"."<br>";
 
 
 

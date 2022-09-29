@@ -1489,7 +1489,7 @@ if($zsspd==1){
                 echo "<font color=red>对不起！你今日已经领取过了黄金贵族福利</font></br>";
             }
         } else{
-            echo "<font color=red>对不起！你还不是黄金贵族或者黄金贵族已到期（开通请联系小轩GM）</font></br>";
+            echo "<font color=red>对不起！你还不是黄金贵族或者黄金贵族已到期（开通请联系GM）</font></br>";
         }
 
     } elseif ($npcc==63) {//铂金贵族占用
@@ -1548,7 +1548,7 @@ if($zsspd==1){
                 echo "<font color=red>对不起！你今日已经领取过了铂金贵族福利</font></br>";
             }
         } else{
-            echo "<font color=red>对不起！你还不是铂金贵族或者铂金贵族已到期（开通请联系小轩GM）</font></br>";
+            echo "<font color=red>对不起！你还不是铂金贵族或者铂金贵族已到期（开通请联系GM）</font></br>";
         }
 
     } elseif ($npcc==64) {//钻石皇族占用
@@ -1609,7 +1609,7 @@ if($zsspd==1){
                 echo "<font color=red>对不起！你今日已经领取过了钻石皇族福利</font></br>";
             }
         } else{
-            echo "<font color=red>对不起！你还不是钻石皇族或者钻石皇族已到期（开通请联系小轩GM）</font></br>";
+            echo "<font color=red>对不起！你还不是钻石皇族或者钻石皇族已到期（开通请联系GM）</font></br>";
         }
 
 
@@ -1676,7 +1676,7 @@ if($zsspd==1){
                 echo "<font color=red>对不起！你今日已经领取过了至尊皇族福利</font></br>";
             }
         } else{
-            echo "<font color=red>对不起！你还不是至尊皇族或者至尊皇族已到期（开通请联系小轩GM）</font></br>";
+            echo "<font color=red>对不起！你还不是至尊皇族或者至尊皇族已到期（开通请联系GM）</font></br>";
         }
 
 

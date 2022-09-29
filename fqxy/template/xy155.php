@@ -78,7 +78,7 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>进入".$f
 
 
 
-echo "<font color=black>进入住宅出现问题请联系小轩GM解决</font>"."<br>";
+echo "<font color=black>进入住宅出现问题请联系GM解决</font>"."<br>";
 
 	
 }

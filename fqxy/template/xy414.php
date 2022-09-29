@@ -176,7 +176,7 @@ $cmid=$cmid+1;
 $cdid[]=$cmid;
 $clj[]=413;
 $npc[]=16;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>小轩~~最好</font></a>"."<br>";
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>GM~~最好</font></a>"."<br>";
 
 
 } elseif($bz ==5){ 

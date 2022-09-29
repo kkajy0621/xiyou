@@ -16955,7 +16955,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17048,7 +17048,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17142,7 +17142,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17236,7 +17236,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17329,7 +17329,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17426,7 +17426,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17519,7 +17519,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17613,7 +17613,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17707,7 +17707,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17800,7 +17800,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在【小果】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17896,7 +17896,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -17989,7 +17989,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18083,7 +18083,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18177,7 +18177,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18270,7 +18270,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18367,7 +18367,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18460,7 +18460,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18554,7 +18554,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18648,7 +18648,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18741,7 +18741,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在公主的小朋友那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18835,7 +18835,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -18928,7 +18928,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19022,7 +19022,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19116,7 +19116,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19209,7 +19209,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19306,7 +19306,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19399,7 +19399,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19493,7 +19493,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19587,7 +19587,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19680,7 +19680,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在及时雨【宋江】那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19778,7 +19778,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19871,7 +19871,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -19965,7 +19965,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20059,7 +20059,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20152,7 +20152,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20249,7 +20249,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20342,7 +20342,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20436,7 +20436,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20530,7 +20530,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }
@@ -20623,7 +20623,7 @@ $wpdz5[]=1;//	重量
 }
 include("./ini/zt_ini.php");
 $wjmz=($iniFile->getItem('玩家信息','玩家名字'));
-$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了小轩GM的假BUG,幸运的获得".$wpdz1[1]."一张";
+$xtxx="恭喜玩家".$wjmz."在南风那里制作".$wpdz1[0]."过程中发现了GM的假BUG,幸运的获得".$wpdz1[1]."一张";
 include("./msg/msgg02.php");
 } else{
 }

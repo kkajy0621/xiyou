@@ -7,7 +7,7 @@
 $ininalock=$wjid."_lock".".txt";
 include("./ini/zsini.php");
 if($zsspd==1){
-echo "<font color=red>小轩温馨提示：男性玩家无法拜入月宫，女性玩家无法拜入普陀山（性别一旦选择无法更换）</font><br>";
+echo "<font color=red>温馨提示：男性玩家无法拜入月宫，女性玩家无法拜入普陀山（性别一旦选择无法更换）</font><br>";
 
 echo "<br>";
 

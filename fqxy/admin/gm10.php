@@ -130,7 +130,7 @@ echo "<font color=black>成功对".$wjname."进行了30分钟禁言处罚！！<
 
 $wjid1=999;
 $ltbl2=999;
-$ltbl1="小轩GM";
+$ltbl1="GM";
 	//调用msg.ini是否存在
  $wjtake="对你进行了2小时禁言的处罚，如有任何疑问请咨询管理员！！";
 include("./ini/msg_ini.php");

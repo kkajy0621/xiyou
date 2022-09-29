@@ -212,7 +212,7 @@ $ltmax=$ltmax-1;
 }
 	} else{	
 	echo "<br>";	
-	echo "<font color=red>小轩Say：私聊世界还很清静！！</font><br>";	
+	echo "<font color=red>Say：私聊世界还很清静！！</font><br>";	
 		echo "<br>";	
 	echo "<font color=red>没有了爱也没有了烦恼！！</font><br>";	
 	echo "<br>";	

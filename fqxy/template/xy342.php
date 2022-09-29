@@ -172,7 +172,7 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>进入".$g
 
 
 
-echo "<font color=black>进入住宅出现问题请联系小轩GM解决</font>"."<br>";
+echo "<font color=black>进入住宅出现问题请联系GM解决</font>"."<br>";
 
 	
 }
@@ -197,7 +197,7 @@ echo "<font color=black>对不起！你无权进入".$gzname."归玩家".$gzfz02
 
 
 } else{	
-echo "<font color=black>此处官宅有问题，请联系小轩GM解决此问题</font>"."<br>";
+echo "<font color=black>此处官宅有问题，请联系GM解决此问题</font>"."<br>";
 }
 
 

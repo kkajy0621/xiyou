@@ -61,7 +61,7 @@ $result = mysql_query($strsql);
 
 $wjid1=999;
 $ltbl2=999;
-$ltbl1="小轩GM";
+$ltbl1="GM";
 	//调用msg.ini是否存在
  $wjtake="向你发放了".$wpmz."x".$wpsl."请到游戏首页增值仓库领取";
 include("./ini/msg_ini.php");
