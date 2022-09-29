@@ -108,15 +108,15 @@ echo "<br>";
 
 <?php
 echo "<font color=red>进群填写我的邀请游戏ID：".$wjid."</font><br>";
-echo "<font color=red>填写邀请ID即可领取超值【三区水帘洞助力包】包含【幻想套装】【vip练级卷】x20，【10亿修炼经验丹】x10，【万能果】x100，【1万西游声望卷轴】x100，【1万法宝经验卷轴】x100，〖瞌睡虫〗（典藏版）x5</font><br>";
+echo "<font color=red>填写邀请ID即可领取超值【一区傲来国助力包】包含【幻想套装】【vip练级卷】x20，【10亿修炼经验丹】x10，【万能果】x100，【1万西游声望卷轴】x100，【1万法宝经验卷轴】x100，〖瞌睡虫〗（典藏版）x5</font><br>";
 echo "<font color=red>我不断的寻找，有你的世界在哪儿</font><br>";
-echo "<font color=red>新区【水帘洞】开放，各项福利免费拿</font><br>";
+echo "<font color=red>新区【傲来国】开放，各项福利免费拿</font><br>";
 echo "<font color=red>独立的服务器全新的西游，在这儿等你归来</font><br>";
 echo "<font color=red>原汁原味的幻想西游，全新的任务，pk，国战，宠物，住宅等等</font><br>";
-echo "<font color=red>注册就有【三区水帘洞助力包】送，携爱共走西游路</font><br>";
+echo "<font color=red>注册就有【一区傲来国助力包】送，携爱共走西游路</font><br>";
 
-echo "<font color=red>QQ交流群：54665469</font><br>";
-echo "<font color=red>游戏网址：www.hfqyx.cn</font><br>";
+echo "<font color=red>QQ交流群：待添加</font><br>";
+echo "<font color=red>游戏网址：待添加</font><br>";
 
 
 
