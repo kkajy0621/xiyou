@@ -24,7 +24,7 @@ $cmid=$cmid+1;
 $cdid[]=$cmid;
 $clj[]=557;
 $npc[]=0;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【我要召唤欢喜财神】（160-200）</font></a>"."<br>";
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【我要召唤欢喜财神】（1-300）</font></a>"."<br>";
 
 echo "<br>";
 //cmd及超链接值
@@ -32,7 +32,7 @@ $cmid=$cmid+1;
 $cdid[]=$cmid;
 $clj[]=558;
 $npc[]=0;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【我要召唤如意财神】（1-159）</font></a>"."<br>";
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【我要召唤如意财神】（1-300）</font></a>"."<br>";
 
 echo "<font color=red>提示：全区玩家每充值1元则可为财神蓄力+2满500点即可召唤【财神爷】</font>"."<br>";
 echo "<font color=black>1.两种财神分160以上和159以下打</font>"."<br>";

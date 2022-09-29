@@ -33,7 +33,7 @@ $cmid=$cmid+1;
 $cdid[]=$cmid;
 $clj[]=556;
 $npc[]=0;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【查看全服累计财神能量】(召唤财神)(9.2结束)</font></a>"."<br>";
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【查看全服累计财神能量】</font></a>"."<br>";
 include XY_DIR . "/ini/phb14_ini.php";
 $arr1=($iniFile->getCategory('排行榜值1'));
 //将ini值存入数组方便使用
@@ -52,7 +52,7 @@ if(in_array($wjid, $arr2)){
 
 $bossid=11;
 $bossmz="【欢喜财神爷】（世界boss）";
-$vipqytime=60;//多少时间更新boss6小时
+$vipqytime=60;//多少时间更新boss1分钟
 include("./wj/bossmb.php");//调用boss
 
 } else {
@@ -71,14 +71,14 @@ echo "<font color=red>【欢喜财神爷】（还未召唤）</font>"."<br>";
 
 
 if ($zhboss1==2) {
-if ($wjddj<=159) {
+if ($wjddj<=300) {
 	
 
 	
 if(in_array($wjid, $arr2)){
 $bossid=12;
 $bossmz="【如意财神爷】（世界boss）";
-$vipqytime=60;//多少时间更新boss6小时
+$vipqytime=60;//多少时间更新boss1分钟
 include("./wj/bossmb.php");//调用boss
 } else {
 	
@@ -86,7 +86,7 @@ echo "<font color=red>【如意财神爷】(很抱歉您在本期未充值过，
 
 }
 } else{
-echo "<font color=red>【如意财神爷】（世界boss）(159以下玩家)</font>"."<br>";
+echo "<font color=red>【如意财神爷】（世界boss）</font>"."<br>";
 
 }
 
