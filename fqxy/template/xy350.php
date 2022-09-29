@@ -67,25 +67,31 @@ include("./ini/zt_ini.php");
 //按照等级区分经验
 $wjdj=($iniFile->getItem('玩家信息','等级'));
 if ($wjdj>=1&&$wjdj<=30) {
-$npjy=20000;//经验
-} elseif ($wjdj>=31&&$wjdj<=60) {
-$npjy=30000;//经验
-} elseif ($wjdj>=61&&$wjdj<=90) {
-$npjy=40000;//经验
-} elseif ($wjdj>=61&&$wjdj<=90) {
 $npjy=50000;//经验
-} elseif ($wjdj>=91&&$wjdj<=120) {
-$npjy=60000;//经验
-} elseif ($wjdj>=121&&$wjdj<=150) {
-$npjy=70000;//经验
-} elseif ($wjdj>=151&&$wjdj<=180) {
-$npjy=80000;//经验
-} elseif ($wjdj>=181&&$wjdj<=200) {
-$npjy=90000;//经验
-} elseif ($wjdj>=201&&$wjdj<=220) {
+} elseif ($wjdj>=31&&$wjdj<=60) {
 $npjy=100000;//经验
-
-	
+} elseif ($wjdj>=61&&$wjdj<=90) {
+$npjy=150000;//经验
+} elseif ($wjdj>=61&&$wjdj<=90) {
+$npjy=200000;//经验
+} elseif ($wjdj>=91&&$wjdj<=120) {
+$npjy=250000;//经验
+} elseif ($wjdj>=121&&$wjdj<=150) {
+$npjy=300000;//经验
+} elseif ($wjdj>=151&&$wjdj<=180) {
+$npjy=350000;//经验
+} elseif ($wjdj>=181&&$wjdj<=200) {
+$npjy=400000;//经验
+} elseif ($wjdj>=201&&$wjdj<=220) {
+$npjy=500000;//经验
+} elseif ($wjdj>=221&&$wjdj<=240) {
+$npjy=600000;//经验
+} elseif ($wjdj>=241&&$wjdj<=260) {
+$npjy=700000;//经验	
+} elseif ($wjdj>=261&&$wjdj<=280) {
+$npjy=800000;//经验	
+} elseif ($wjdj>=281&&$wjdj<=300) {
+$npjy=1000000;//经验
 } else{	
 $npjy=1;//经验
 } 
