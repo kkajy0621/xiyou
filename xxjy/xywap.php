@@ -59,7 +59,7 @@ $hosts = $configs['urls'];
         <?php endforeach;?>
     </ul>
     <span>==================</span>
-    <p>游戏问题请加入QQ群反馈：39387037 </p>
+    <p>游戏问题请加入QQ群反馈：待添加 </p>
 </div>
 </body>
 </html>
