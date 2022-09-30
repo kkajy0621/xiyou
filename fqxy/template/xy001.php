@@ -393,7 +393,7 @@ if ($zsspd == 1) {
         $cdid[]=$cmid;
         $clj[]=107;
         $npc[]=27;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-昔日活动全开爽歪歪】</font></a>" . "<br>";
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-昔日活动重启财神大比拼】</font></a>" . "<br>";
     */
 
 

@@ -1937,8 +1937,8 @@ BUG，相信一定逃不过大家的火眼精金的！</font><br>";
     echo "<font color=black>拉人送自充卡。使用自充卡不参与积分排名，与赠送</font><br>";
     echo "<font color=black>1.拉1人送10自充，拉2人送20元自充，必须为真实有效玩家，以此类推，多拉多送禁小号禁作弊，一经发现严惩不贷，不排除封号</font><br>";
     echo "<font color=red>---------------邀人奖励-------------</font><br>";
-} elseif ($ckid ==27) {//【活动-昔日活动全开爽歪歪】
-    echo "<font color=red>昔日活动全开爽歪歪</font><br>";
+} elseif ($ckid ==27) {//【活动-昔日活动重启财神大比拼】超链接565,566
+    echo "<font color=red>昔日活动重启财神大比拼</font><br>";
     echo "<font color=black>1.【天尊之恋】（典藏版）试炼活动，活动期间内拥有天尊套装的奖励</font><br>";
     echo "<font color=red>第一个：〖金豆〗x10000</font><br>";
     echo "<font color=red>第二个：〖金豆〗x6000</font><br>";
