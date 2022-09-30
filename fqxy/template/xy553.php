@@ -6,55 +6,49 @@ $phbzz4=($iniFile->getCategory('排行榜值4'));
 $hm=0;
 
 $ik=0;
-$hm=count($phbzz2,0);
-echo "<font color=black>【新区开区活动积分排名前10名玩家】</font></a>"."<br>";
-echo "<font color=black>活动时间：11.26-12.02（23:50）</font></a>"."<br>";
-if($hm>=1){
-
-
-    foreach(array_keys($phbzz2) as $key){
+$hm=count($phbzz2, 0);
+echo "<font color=black>【国庆节活动积分排名前10名玩家】</font></a>"."<br>";
+echo "<font color=black>活动时间：2022.10.01至2022.10.08晚24点</font></a>"."<br>";
+if ($hm>=1) {
+    foreach (array_keys($phbzz2) as $key) {
         $keyphbzz2[]=$phbzz2[$key];
     }
 
-    foreach(array_keys($phbzz4) as $key){
+    foreach (array_keys($phbzz4) as $key) {
         $keyphbzz4[]=$phbzz4[$key];
     }
 
     $mt=0;
-    for($b=0;$b<$hm;$b++){
+    for ($b=0;$b<$hm;$b++) {
         $xb[]=$keyphbzz2[$mt]*10000+$keyphbzz4[$mt];
         $fb[]=$keyphbzz2[$mt]*10000;
 
 
         $mt=$mt+1;
-
     }
 
-    if ($hm>0){
+    if ($hm>0) {
         rsort($fb);
         rsort($xb);
-
-    } else{
+    } else {
     }
 
 
     $mt=0;
-    for($b=0;$b<$hm;$b++){
-
+    for ($b=0;$b<$hm;$b++) {
         $xbb[]=$xb[$mt]-$fb[$mt];
         $mt=$mt+1;
     }
     $mm=0;
     $i=-1;
-    for($b=0;$b<$hm;$b++){
+    for ($b=0;$b<$hm;$b++) {
         $i=$i+1;
         $xbbb=$xbb[$i];
 
-        $phmz[]=($iniFile->getItem('排行榜名字',$xbbb));
-        $phidd[]=($iniFile->getItem('排行榜值1',$xbbb));
-        $phsx[]=($iniFile->getItem('排行榜值2',$xbbb));
-        $vvip[]=($iniFile->getItem('排行榜值3',$xbbb));
-
+        $phmz[]=($iniFile->getItem('排行榜名字', $xbbb));
+        $phidd[]=($iniFile->getItem('排行榜值1', $xbbb));
+        $phsx[]=($iniFile->getItem('排行榜值2', $xbbb));
+        $vvip[]=($iniFile->getItem('排行榜值3', $xbbb));
     }
 
 
@@ -71,7 +65,7 @@ if($hm>=1){
 
 
     $i=-1;
-    for($d=0;$d<$hm-1;$d++){
+    for ($d=0;$d<$hm-1;$d++) {
         $i=$i+1;
 
         $ik=$ik+1;
@@ -84,8 +78,7 @@ if($hm>=1){
         echo "<br>";
 
 
-        if ($wjid==$phidd[$i]){
-
+        if ($wjid==$phidd[$i]) {
             //cmd及超链接值
             $cmid=$cmid+1;
             $cdid[]=$cmid;
@@ -93,7 +86,7 @@ if($hm>=1){
             $npc[]=$phidd[$i];
             echo "<font color=red>".$phmz[$i]."</font></a>";
             echo "<font color=red>&nbsp&nbsp&nbsp[".$phsx[$i]."]</font>";
-        } else{
+        } else {
             //cmd及超链接值
             $cmid=$cmid+1;
             $cdid[]=$cmid;
@@ -102,9 +95,6 @@ if($hm>=1){
             echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>".$phmz[$i]."</font></a>";
             echo "<font color=black>&nbsp&nbsp&nbsp[".$phsx[$i]."]</font>";
             echo $phidd[$i];
-
-
-
         }
         /*
     if ($ik==1){
@@ -134,23 +124,12 @@ if($hm>=1){
 
 
         echo "</br>";
-        if ($ik>=10){
+        if ($ik>=10) {
             break;
         }
-
-
-
-
     }
-
-
-
-
-
-
-} else{
+} else {
     echo "<font color=black>目前还无人上榜</font>"."<br>";
-
 }
 
 
