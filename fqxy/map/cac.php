@@ -237,14 +237,6 @@ if ($dty==0) {
     $cmid=$cmid+1;
     $cdid[]=$cmid;
     $clj[]=7;
-    $npc[]=1321;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗竞猜使者</font></a>"."<br>";
-    //cmd及超链接值
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
     $npc[]=1323;//需要改动
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖活动〗点石成金传送员</font></a>"."<br>";
     //长期活动
@@ -628,9 +620,17 @@ if ($dty==0) {
         $clj[]=7;
         $npc[]=1322;
         echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖感恩节活动〗火鸡先生</font></a>"."<br>";
+        //cmd及超链接值
+        $img='pic/ts/ts1.png';
+        echo '<img src="'.$img.' "alt="图片"/>';
+        $cmid=$cmid+1;
+        $cdid[]=$cmid;
+        $clj[]=7;
+        $npc[]=1321;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖感恩节活动〗竞猜使者</font></a>"."<br>";
         //11月感恩节活动，活动时间(2022.11.17至11.24晚24点）
-    */
 
+    */
 
 
     //出口
