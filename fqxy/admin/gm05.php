@@ -1,26 +1,6 @@
 
-<form  action="<?echo "gm.php?gid=6&&user=$wjid";?>" method="post">
-物品&nbsp&nbspI&nbsp&nbspD：<input type="tel" name="wp" placeholder="请输入物品ID"id='search'onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"><br>
-物品数量：<input type="tel" name="sl" placeholder="请输入物品数量"id='search'onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"><br>
-<input  type="submit" name="submit"  value="发送道具" id="search1"><br>
-</form>
-
-
-<html>
-<!-- stylesheet -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="//fonts.googleapis.com/css?family=Asap:400,400i,500,500i,700,700i" rel="stylesheet">
-<!-- //stylesheet -->
-
-<body class="bg agileinfo">
-<h1 class="agile_head text-center">西游物品ID搜索</h1>
-
-<div class="container w3">
-<form action="#" method="post" class="agile_form">
-
-<input type='text' value='' id='searchipt' class="name agileits" placeholder='请输入物品名字'>
-<div class="list_agileits_w3layouts">
-<div class="section_class_agileits sec-left">
+<form action="<?echo "gm.php?gid=6&&user=$wjid";?>" method="post">
+物品搜索:<input type='text' value='' id='searchipt' placeholder='请输入物品名字'>
 <select id='mailid'><option value=0>物品列表</option>
 
 <?php
@@ -34,14 +14,12 @@ while (!feof($file)) {
 }
 fclose($file);
 ?>
-</select>
-</div>
-<div class="clear"></div>
-</div>
 
+<input type="tel" name="wp" placeholder="请输入物品ID"id='search'>
+<input type="tel" name="sl" placeholder="请输入物品数量"id='search'>
+<input  type="submit" name="submit"  value="发送道具" id="search1">
 
 <?php
-echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
@@ -51,11 +29,10 @@ echo "<br>";
 echo "<a href='gm.php?gid=1'><font color=red>【返回GM管理首页】</font></a>"."<br>";
 echo "<br>";
 echo "<br>";
-
 ?>
 
-
 <script src='css/jquery-1.7.2.min.js'></script>
+
 <script>
 $('#searchipt').on('change',function(){
 var keyword=$(this).val();
@@ -72,12 +49,10 @@ for (var i in data){
 $('#mailid').append('<option value="'+data[i].key+'">'+data[i].val+'</option>');
 }
 }else{
-$('#mailid').html('<option value="0">未找到</option>');
+$('#mailid').html('<option value="0">请选择</option>');
 }
 },
 
 });
 });
 </script>
-</body>
-</html>
