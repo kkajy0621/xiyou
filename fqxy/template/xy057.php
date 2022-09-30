@@ -7,7 +7,7 @@ $cmid=$cmid+1;
 $cdid[]=$cmid;
 $clj[]=555;
 $npc[]=0;//需要改动
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=red>【国庆充值榜】</font></a>"."<br>";
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=red>【国庆节充值榜】</font></a>"."<br>";
 
 //cmd及超链接值
 $cmid=$cmid+1;

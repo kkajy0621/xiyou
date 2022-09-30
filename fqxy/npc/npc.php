@@ -9514,16 +9514,13 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>提交</fo
 
 
     echo "<font color=red>------------大佬兑换区-------------</font>"."<br>";
-    /*
-
-echo "<font color=red>〖国庆愉快卡〗（〖国庆愉快卡〗=1国庆积分）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=637;
-$npc[]=0;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>一键提交</font></a>"."<br>";
-*/
+    echo "<font color=red>〖国庆愉快卡〗（〖国庆愉快卡〗=1国庆积分）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=637;
+    $npc[]=0;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>一键提交</font></a>"."<br>";
 } elseif ($npcc==1202) {//
     $npcc=$npcc1;
     $npcname="〖采花〗百花仙子";
