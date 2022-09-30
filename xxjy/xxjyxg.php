@@ -91,7 +91,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
     <font color=black>|</font>
     <a href='/xxjy/xxjywj.php'><font color=blue>忘记密码</font></a>
     <font color=black>|</font>
-    <a href="http://127.0.0.1/admin/login.php">GM后台</a>
+    <a href="http://42.194.147.154/admin/login.php">GM后台</a>
 
     <p>游戏问题请加入QQ群反馈：待添加 </p>
 

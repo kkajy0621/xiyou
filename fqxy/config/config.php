@@ -1,10 +1,10 @@
 <?php
 
 //分区所属家园地址
-$config['jy_url'] = 'http://127.0.0.1';
+$config['jy_url'] = 'http://42.194.147.154';
 
 //分区地址
-$config['xy_url'] = 'http://127.0.0.1';
+$config['xy_url'] = 'http://42.194.147.154';
 
 //分区数据库配置
 $config['mysql'] = [
