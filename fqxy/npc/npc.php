@@ -7949,76 +7949,73 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</fo
 
 
 
-    /*
-
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=415;
-$npc[]=558;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【一生所爱の婚戒】（典藏版）</font></a>";
-echo "<font color=black>（【小喜鹊】x666+〖金豆〗x200）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=91;
-$npc[]=57;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
 
 
-
-
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=415;
-$npc[]=559;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【一生所爱の婚链】（典藏版）</font></a>";
-echo "<font color=black>（【小喜鹊】x666+〖金豆〗x200）</font>";
-
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=91;
-$npc[]=58;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
-*/
-    /*
-
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=415;
-$npc[]=560;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【恋人未满の婚戒】（靛蓝版）</font></a>";
-echo "<font color=black>（【小喜鹊】x1000+〖金豆〗x200）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=91;
-$npc[]=59;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=415;
+    $npc[]=558;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【一生所爱の婚戒】（典藏版）</font></a>";
+    echo "<font color=black>（【小喜鹊】x666+〖金豆〗x200）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=91;
+    $npc[]=57;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
 
 
 
 
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=415;
-$npc[]=561;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【恋人未满の婚链】（靛蓝版）</font></a>";
-echo "<font color=black>（【小喜鹊】x1000+〖金豆〗x200）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=415;
+    $npc[]=559;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【一生所爱の婚链】（典藏版）</font></a>";
+    echo "<font color=black>（【小喜鹊】x666+〖金豆〗x200）</font>";
 
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=91;
-$npc[]=60;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=91;
+    $npc[]=58;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
 
 
-*/
+
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=415;
+    $npc[]=560;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【恋人未满の婚戒】（靛蓝版）</font></a>";
+    echo "<font color=black>（【小喜鹊】x1000+〖金豆〗x200）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=91;
+    $npc[]=59;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
+
+
+
+
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=415;
+    $npc[]=561;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【恋人未满の婚链】（靛蓝版）</font></a>";
+    echo "<font color=black>（【小喜鹊】x1000+〖金豆〗x200）</font>";
+
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=91;
+    $npc[]=60;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
 } elseif ($npcc==924) {//副本boss
 } elseif ($npcc==1001) {//〖活动〗紫霞仙子
     $npcc1=$npcc;
@@ -8543,35 +8540,21 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</fo
     $npc[]=56;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>打造</font></a>"."<br>";
 
+    echo "<font color=red>【喜鹊令】（甜蜜七夕每样x3000+〖金豆〗x200）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=312;
+    $npc[]=128;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</font></a>"."<br>";
 
-    /*
-
-
-echo "<font color=red>【喜鹊令】（甜蜜七夕每样x3000+〖金豆〗x200）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=312;
-$npc[]=128;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</font></a>"."<br>";
-
-
-
-
-
-
-
-
-
-
-echo "<font color=red>〖七夕令〗（甜蜜七夕每样x3000+〖金豆〗x200）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=312;
-$npc[]=129;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</font></a>"."<br>";
-*/
+    echo "<font color=red>〖七夕令〗（甜蜜七夕每样x3000+〖金豆〗x200）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=312;
+    $npc[]=129;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</font></a>"."<br>";
 } elseif ($npcc==1007) {//
     $npcc=$npcc1;
     $npcname="〖活动〗蓝铮";
@@ -8832,17 +8815,15 @@ echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</fo
     $npc[]=167;
     echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>兑换</font></a>"."<br>";
 
-    /*
 
-echo "<font color=black>一键提交〖课本〗（〖课本〗=1积分）</font>";
-//cmd及超链接值
-$cmid=$cmid+1;
-$cdid[]=$cmid;
-$clj[]=554;
-$npc[]=0;
-echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>提交</font></a>"."<br>";
 
-*/
+    echo "<font color=black>一键提交〖课本〗（〖课本〗=1积分）</font>";
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=554;
+    $npc[]=0;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>提交</font></a>"."<br>";
 } elseif ($npcc==1011) {
     $npcname="李世民";
     echo "<font color=red>$npcname</font>"."<br>";
