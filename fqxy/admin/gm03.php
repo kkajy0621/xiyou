@@ -2,8 +2,8 @@
 
 echo "<font color=red>【系统管理】</font>"."<br>";
 echo "<a href='gm.php?gid=8'><font color=blue>【发布系统消息】</font></a>"."<br>";
-echo "<a href='gm.php?gid=2'><font color=blue>【发布官方动态】</font></a>"."<br>";
-echo "<a href='gm.php?gid=2'><font color=blue>【查看游戏统计】</font></a>"."<br>";
+echo "<a href='gm.php?gid=38'><font color=blue>【补给背包数据】</font></a>"."<br>";
+// echo "<a href='gm.php?gid=2'><font color=blue>【查看游戏统计】</font></a>"."<br>";
 echo "<a href='gm.php?gid=22'><font color=blue>【刷新公共数据】</font></a>"."<br>";
 echo "<a href='gm.php?gid=37'><font color=blue>【刷新排行榜数据】</font></a>"."<br>";
 echo "<a href='gm.php?gid=39'><font color=blue>【初始化所有奖池】</font></a>"."<br>";
@@ -23,9 +23,3 @@ echo "<font color=black>---------------------</font>"."<br>";
 
 
 echo "<a href=".$xxjyurl."/admin/index.php><font color=blue>返回GM管理平台</font></a>"."<br>";
-
-
-
-
-
-?>
