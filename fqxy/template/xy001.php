@@ -397,24 +397,24 @@ if ($zsspd == 1) {
     */
 
 
-
-    //cmd及超链接值
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=107;
-    $npc[]=28;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-国庆节活动】</font></a>" . "<br>";
-
-
-
     /*
         //cmd及超链接值
         $cmid=$cmid+1;
         $cdid[]=$cmid;
         $clj[]=107;
-        $npc[]=29;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-西游半周年嘉年华】（10.10-10.16晚23点50结束）</font></a>" . "<br>";
+        $npc[]=28;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-国庆节活动】</font></a>" . "<br>";
     */
+
+
+
+    //cmd及超链接值
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=107;
+    $npc[]=29;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【活动-西游半周年嘉年华】（10.10-10.16晚23点50结束）</font></a>" . "<br>";
+
 
     /*
         //cmd及超链接值

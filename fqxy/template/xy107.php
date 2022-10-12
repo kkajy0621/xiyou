@@ -2142,7 +2142,6 @@ BUG，相信一定逃不过大家的火眼精金的！</font><br>";
     echo "<font color=black>10.每消费50赠送〖至尊宝石包〗（1个）〖金锭〗x1（特别提醒不累计）</font><br>";
     echo "<br>";
     echo "<font color=black>11.充值消费赠送3位极品豹子1-9id号码卡先到先得（需活动累计消费满100积分）</font><br>";
-    echo "<font color=black>12.使用蚂蚁花呗付款赠送充值金额的百分之10现金回馈红包</font><br>";
 } elseif ($ckid ==30) {//【活动-重阳节活动】（10.17-10.23晚23点50结束）
     echo "<font color=red>活动时间2022.10.17-2022.10.23</font><br>";
     echo "<br>";
