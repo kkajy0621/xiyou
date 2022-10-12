@@ -7,8 +7,8 @@ $hm=0;
 
 $ik=0;
 $hm=count($phbzz2, 0);
-echo "<font color=black>【国庆节活动积分排名前10名玩家】</font></a>"."<br>";
-echo "<font color=black>活动时间：2022.10.01至2022.10.08晚24点</font></a>"."<br>";
+echo "<font color=black>【半周年活动积分排名前10名玩家】</font></a>"."<br>";
+echo "<font color=black>活动时间：2022.10.10至2022.10.16晚24点</font></a>"."<br>";
 if ($hm>=1) {
     foreach (array_keys($phbzz2) as $key) {
         $keyphbzz2[]=$phbzz2[$key];
