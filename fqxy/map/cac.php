@@ -447,103 +447,103 @@ if ($dty==0) {
 
 
 
-
-    //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
-    //cmd及超链接值
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1082;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗爱国富商（领红旗，升国旗）</font></a>"."<br>";
-    //cmd及超链接值
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=7;
-    $npc[]=1083;//需要改动
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗国庆大使（字体兑换,抢榜）</font></a>"."<br>";
-    //cmd及超链接值
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=635;
-    $npc[]=0;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆金蛋】</font></a>"."<br>";
-    //cmd及超链接值
-    $img='pic/ts/ts1.png';
-    echo '<img src="'.$img.' "alt="图片"/>';
-    $cmid=$cmid+1;
-    $cdid[]=$cmid;
-    $clj[]=638;
-    $npc[]=0;
-    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆挖宝】</font></a>"."<br>";
-    //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
-
-
     /*
-        //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+        //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
         //cmd及超链接值
         $img='pic/ts/ts1.png';
         echo '<img src="'.$img.' "alt="图片"/>';
         $cmid=$cmid+1;
         $cdid[]=$cmid;
         $clj[]=7;
-        $npc[]=1203;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗【小果】</font><font color=red>（制作蛋糕）</font></a>"."<br>";
+        $npc[]=1082;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗爱国富商（领红旗，升国旗）</font></a>"."<br>";
         //cmd及超链接值
         $img='pic/ts/ts1.png';
         echo '<img src="'.$img.' "alt="图片"/>';
         $cmid=$cmid+1;
         $cdid[]=$cmid;
         $clj[]=7;
-        $npc[]=1204;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗公主的小朋友</font><font color=red>（制作饼干）</font></a>"."<br>";
+        $npc[]=1083;//需要改动
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗国庆大使（字体兑换,抢榜）</font></a>"."<br>";
         //cmd及超链接值
         $img='pic/ts/ts1.png';
         echo '<img src="'.$img.' "alt="图片"/>';
         $cmid=$cmid+1;
         $cdid[]=$cmid;
-        $clj[]=7;
-        $npc[]=1205;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗时尚网迷</font><font color=red>（制作面包）</font></a>"."<br>";
+        $clj[]=635;
+        $npc[]=0;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆金蛋】</font></a>"."<br>";
         //cmd及超链接值
         $img='pic/ts/ts1.png';
         echo '<img src="'.$img.' "alt="图片"/>';
         $cmid=$cmid+1;
         $cdid[]=$cmid;
-        $clj[]=7;
-        $npc[]=1206;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗南风</font><font color=red>（制作巧克力）</font></a>"."<br>";
-        //cmd及超链接值
-        $img='pic/ts/ts1.png';
-        echo '<img src="'.$img.' "alt="图片"/>';
-        $cmid=$cmid+1;
-        $cdid[]=$cmid;
-        $clj[]=7;
-        $npc[]=1208;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗永不言败</font><font color=red>（生日甜品礼盒）</font></a>"."<br>";
-        //cmd及超链接值
-        $img='pic/ts/ts1.png';
-        echo '<img src="'.$img.' "alt="图片"/>';
-        $cmid=$cmid+1;
-        $cdid[]=$cmid;
-        $clj[]=7;
-        $npc[]=1209;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗LoKC</font><font color=red>（贩卖原材料）</font></a>"."<br>";
-        //cmd及超链接值
-        $img='pic/ts/ts1.png';
-        echo '<img src="'.$img.' "alt="图片"/>';
-        $cmid=$cmid+1;
-        $cdid[]=$cmid;
-        $clj[]=7;
-        $npc[]=1207;
-        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗姝菟</font><font color=red>（抢积分榜）</font></a>"."<br>";
-        //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+        $clj[]=638;
+        $npc[]=0;
+        echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖国庆节活动〗【国庆挖宝】</font></a>"."<br>";
+        //10月国庆节活动，活动时间(2022.10.1至10.8晚24点）
     */
+
+
+    //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1203;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗【小果】</font><font color=red>（制作蛋糕）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1204;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗公主的小朋友</font><font color=red>（制作饼干）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1205;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗时尚网迷</font><font color=red>（制作面包）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1206;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗南风</font><font color=red>（制作巧克力）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1208;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗永不言败</font><font color=red>（生日甜品礼盒）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1209;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗LoKC</font><font color=red>（贩卖原材料）</font></a>"."<br>";
+    //cmd及超链接值
+    $img='pic/ts/ts1.png';
+    echo '<img src="'.$img.' "alt="图片"/>';
+    $cmid=$cmid+1;
+    $cdid[]=$cmid;
+    $clj[]=7;
+    $npc[]=1207;
+    echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖周年庆活动〗姝菟</font><font color=red>（抢积分榜）</font></a>"."<br>";
+    //10月西游周年庆活动，活动时间(2022.10.10至10.16晚24点）
+
 
 
 
