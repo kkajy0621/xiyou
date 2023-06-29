@@ -1,7 +1,7 @@
 <?php
 
 //家园地址
-$config['jy_url'] = 'http://127.0.0.1';
+$config['jy_url'] = 'http://47.95.37.39';
 
 //分区列表
 $config['urls'] = [
